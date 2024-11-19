@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pokémon Search Component</title>
+
+  <style>
+    pokemon-search {
+      --title-color: #e74c3c;
+      --button-bg-color: #3498db;
+      --button-hover-bg-color: #2980b9;
+    }
+  </style>
+
+</head>
+<body>
+  <!-- Use the custom element -->
+  <pokemon-search
+    title="Pokémon Finder"
+    label="Enter Pokémon Name or ID"
+    placeholder="e.g., pikachu or 25"
+    button-text="Search"
+  ></pokemon-search>
+
+  <!-- Include the web component script -->
+  <script src="pokemon-search.js"></script>
+</body>
+</html>
+
